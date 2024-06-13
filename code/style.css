@@ -1,0 +1,29 @@
+img{
+    width: 500px;
+    height: 800px;
+
+}
+
+body{
+    background-color:black;
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+
+body{
+    background-color: blueviolet;
+    font-family: "Jaro", sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color:pink ;
+    }
+}
