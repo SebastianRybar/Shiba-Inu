@@ -40,12 +40,12 @@ body{
 }
 
 @media only screen and (max-width: 960px){
-    body{
-        background-color:pink ;
+    img{
+        width: 430px;
     }
 }
 @media only screen and (max-height: 360px){
-    body{
-        background-color:pink ;
+    img{
+        width: 180px;
     }
 }
