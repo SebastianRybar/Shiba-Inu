@@ -1,20 +1,37 @@
-img{
-    width: 500px;
-    height: 800px;
 
+h2{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+img{
+    width: 1000px;
+    height: 800px;
 }
 
 body{
     background-color:black;
 }
 
+li{
+    list-style:inside;
+}
 
+body[title=záhlaví]{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Shiba_Inu_cream.jpg/1024px-Shiba_Inu_cream.jpg);
+    display: flex;
+    background-size: cover;
+}
 
+a:hover{
+    color: blue;
+}
 
+a:visited{
+    color:maroon;
+}
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 body{
@@ -22,7 +39,12 @@ body{
     font-family: "Jaro", sans-serif;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 960px){
+    body{
+        background-color:pink ;
+    }
+}
+@media only screen and (max-height: 360px){
     body{
         background-color:pink ;
     }
