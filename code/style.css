@@ -46,6 +46,6 @@ body{
 }
 @media only screen and (max-height: 360px){
     img{
-        width: 180px;
+        width: 330px;
     }
 }
